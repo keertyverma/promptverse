@@ -26,7 +26,7 @@ const MyProfile = () => {
     router.push(`/update-prompt?id=${post._id}`);
   };
 
-  const handleDelete = async () => {};
+  const handleDelete = async (post) => {};
   return (
     <Profile
       name="My"
